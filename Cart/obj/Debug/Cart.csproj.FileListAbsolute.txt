@@ -1,0 +1,7 @@
+c:\users\nsakhuja\source\repos\Cart\Cart\bin\Debug\Cart.exe.config
+c:\users\nsakhuja\source\repos\Cart\Cart\bin\Debug\Cart.exe
+c:\users\nsakhuja\source\repos\Cart\Cart\bin\Debug\Cart.pdb
+c:\users\nsakhuja\source\repos\Cart\Cart\obj\Debug\Cart.csprojResolveAssemblyReference.cache
+c:\users\nsakhuja\source\repos\Cart\Cart\obj\Debug\Cart.csproj.CoreCompileInputs.cache
+c:\users\nsakhuja\source\repos\Cart\Cart\obj\Debug\Cart.exe
+c:\users\nsakhuja\source\repos\Cart\Cart\obj\Debug\Cart.pdb
