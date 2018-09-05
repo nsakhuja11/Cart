@@ -8,9 +8,9 @@ namespace Cart
 {
     interface IUserCart
     {
-        void AddItemToCart(Items item);
+        void AddItemToCart(Item item);
 
-        void RemoveItemFromCart(Items item);
+        void RemoveItemFromCart(Item item);
 
         void CalculateAmount();
 

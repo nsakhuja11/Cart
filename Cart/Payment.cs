@@ -7,26 +7,35 @@ using System.Threading.Tasks;
 namespace Cart
 {
     class Payment:IPayment
-    { 
+    {
+        
+        
         public void CashOnDelivery(int amount)
         {
+            Console.WriteLine();
             Console.WriteLine("You have to pay Rs.{0} on delivery",amount);
+            Console.WriteLine();
         }
 
         public void OnlinePayment(int amount)
         {
+            Console.WriteLine();
             Console.WriteLine("You have to pay Rs.{0} using card",amount);
+            Console.WriteLine();
         }
 
-        public void DisplayInvoice(List<Items> items, int amount)
+        public void DisplayInvoice(List<Item> item,int amount)
         {
-            for(int i = 0; i < items.Count; i++)
+            Console.WriteLine();
+            for (int i = 0; i < item.Count; i++)
             {
-                Console.WriteLine(items[i].name);
-                Console.WriteLine(items[i].price);
-                Console.WriteLine(items[i].quantity);
+                Console.WriteLine("Item Name : {0}", item[i].name);
+                Console.WriteLine("Item Price : {0}", item[i].price);
+                Console.WriteLine("Item Quantity : {0}", item[i].quantity);
+                Console.WriteLine();
             }
-            Console.WriteLine(amount);
+            Console.WriteLine("Amount Paid {0}",amount);
+            Console.ReadKey();
         }
     }
 }
