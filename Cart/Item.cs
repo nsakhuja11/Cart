@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Cart
 {
-    public class Items
+    public class Item
     {
-        public int quantity { get; set; }
-        public int price { get; set; }
         public int Id { get; set; }
         public string name { get; set; }
+        public int quantity { get; set; }
+        public int price { get; set; }
+        
     }
 }

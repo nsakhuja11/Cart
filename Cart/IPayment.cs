@@ -12,6 +12,6 @@ namespace Cart
 
         void OnlinePayment(int amount);
 
-        void DisplayInvoice(List<Items> items, int amount);
+        void DisplayInvoice(List<Item> item, int amount);
     }
 }
